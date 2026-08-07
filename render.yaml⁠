@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Trading-signal-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
