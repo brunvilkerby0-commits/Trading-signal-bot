@@ -12,7 +12,6 @@ const PORT = process.env.PORT || 10000;
 app.get('/', (req, res) => {
     res.send('Robot Trading la ap kouri san pwoblèm!');
 });
-
 app.listen(PORT, () => {
     console.log(`Sèvè ap koute sou pò ${PORT}`);
 });
