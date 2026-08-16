@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const WebSocket = require('ws');
 
-const app = express();
+const app = express(); 
 const PORT = process.env.PORT || 3000;
 
 // 🔐 Konfigirasyon Telegram ak Deriv
