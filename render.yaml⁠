@@ -1,9 +1,19 @@
+
 services:
   - type: web
-    name: Trading-signal-bot
-    env: node
+    name: smartasset-pocket-signal
+    runtime: node
+    plan: free
+
     buildCommand: npm install
-    startCommand: node index.js
+    startCommand: npm start
+
     envVars:
-      - key: PORT
-        value: 10000
+      - key: TWELVE_DATA_API_KEY
+        sync: false
+
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+
+      - key: TELEGRAM_CHAT_ID
+        value: "@smartasset_vip_signal"
