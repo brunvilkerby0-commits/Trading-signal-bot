@@ -3,7 +3,6 @@ const axios = require("axios");
 
 const app = express();
 const PORT = process.env.PORT || 10000;
-
 const TWELVE_DATA_API_KEY = process.env.TWELVE_DATA_API_KEY;
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID =
