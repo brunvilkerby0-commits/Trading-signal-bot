@@ -3,8 +3,9 @@ const axios = require("axios");
 
 const app = express();
 const PORT = process.env.PORT || 10000;
-const TWELVE_DATA_API_KEY = process.env.TWELVE_DATA_API_KEY;
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TWELVE_DATA_API_KEY = 4f982e823b3646cc96a5c9db44bf53fd
+const TELEGRAM_BOT_TOKEN = 8875684135:AAFPGkJKDnxTzNGdH7rIfqzwyofy40cB3Ek
+
 const TELEGRAM_CHAT_ID =
   process.env.TELEGRAM_CHAT_ID || "@smartasset_vip_signal";
 
